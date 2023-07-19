@@ -12,34 +12,38 @@
 
 <body>
 
-    <!----En üstte bulunan header linklerin olduğu alanı header etiketi ile yaptım.
-    bu alan başlangıcı-->
+    <!-- begin::GoogleAppHeader -->
     <header>
+        <!-- begin::GoogleAppHeaderLeftMenu -->
         <div class="row-1">
             <a href="">About</a>
             <a href="">Store</a>
         </div>
+        <!-- end::GoogleAppHeaderLeftMenu -->
 
-
+        <!-- begin::GoogleAppHeaderRightMenu -->
         <div class="row-2">
             <a href="">Gmail</a>
             <a href="">İmages</a>
-            <a href=""><span class="material-symbols-outlined">
+            <a href="">
+                <span class="material-symbols-outlined">
                     apps
-                </span></a>
+                </span>
+            </a>
 
             <!-- begin::UserLoginButton -->
             <a class="sign">Sign In</a>
             <!-- end::UserLoginButton -->
         </div>
-
+        <!-- end::GoogleAppHeaderRightMenu -->
     </header>
-    <!--header bitiş-->
+    <!-- end::GoogleAppHeader -->
 
-    <!--Main alanını Container yapısını kullanarak yaptım-->
+    <!-- begin::GoogleAppContent -->
     <div class="container">
         <div class="box-1">
             <div class="logo"><img src="images/logo.png"></div>
+            <!-- begin::GoogleAppSearchInput -->
             <div class="search">
                 <div class="search-in">
                     <span class="material-symbols-outlined">
@@ -48,32 +52,36 @@
                     <input type="text">
                     <img src="images/voicelogo.png" alt="">
                 </div>
-
             </div>
-
+            <!-- end::GoogleAppSearchInput -->
         </div>
+        <!-- begin::GoogleAppSearchActions -->
         <div class="buttons">
             <button class="first">Google Search</button>
             <button class="second">I'm Feeling Lucky</button>
         </div>
+        <!-- end::GoogleAppSearchActions -->
     </div>
+    <!-- end::GoogleAppContent -->
 
-
+    <!-- begin::GoogleAppFooter -->
     <footer>
+        <!-- begin::GoogleAppFooterLeftMenu -->
         <div class="row-1">
             <a href="">Advertsing</a>
             <a href="">Bussines</a>
             <a href="">How Search works</a>
         </div>
+        <!-- end::GoogleAppFooterLeftMenu -->
 
+        <!-- begin::GoogleAppFooterRightMenu -->
         <div class="row-2">
             <a href="">Privacy</a>
             <a href="">Terms</a>
             <a href="">Settins</a>
         </div>
-
+        <!-- end::GoogleAppFooterRightMenu -->
     </footer>
-
+    <!-- end::GoogleAppFooter -->
 </body>
-
 </html>
